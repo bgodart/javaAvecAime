@@ -36,7 +36,10 @@ public abstract class Acteur {
 		compteur++;
 		this.tirerDirection();
 		//System.out.println("y" + y + "x" +x);
-	}	
+	}
+	private void rien(){
+		System.out.println("rien");
+	}
 
 	public  int getX() {
 		return x;
